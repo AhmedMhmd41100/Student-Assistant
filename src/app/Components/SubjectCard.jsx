@@ -13,7 +13,7 @@ const SubjectCard = () => {
   <div className="card-body">
     <h2 className="card-title">Subject Name</h2>
     <p>Teacher: Name</p>
-    <p>Grade: Grade</p>
+    <p>Level: Level</p>
     <div className="card-actions justify-end">
       <button className="btn btn-primary">View</button>
     </div>

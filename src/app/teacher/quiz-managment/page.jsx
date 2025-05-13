@@ -1,8 +1,60 @@
 import React from 'react'
+import Link from 'next/link'
 
 const page = () => {
   return (
-    <div>page</div>
+    <>
+    <div className='m-6'>
+      <div className="bg-base-200  w-300 rounded-xs p-3 my-6 flex justify-between items-center " > 
+          <Link href="/courses" className='btn btn-primary'>Add Quiz</Link>
+          <Link href="/courses" className='btn btn-primary'>Remove Quiz</Link>
+          <Link href="/courses" className='btn btn-primary'>Modify Quiz</Link>
+      </div>
+        <div >
+        <ul className="list bg-base-200 rounded-box shadow-md">
+  
+          <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">Quizzes List:</li>
+          
+          <li className="list-row">
+            <div className="text-4xl font-thin opacity-30 tabular-nums">01</div>
+            
+            <div className="list-col-grow">
+              <div>Quiz Name</div>
+              <div className="text-xs uppercase font-semibold opacity-60">Date:</div>
+            </div>
+          </li>
+          
+          <li className="list-row">
+            <div className="text-4xl font-thin opacity-30 tabular-nums">02</div>
+            
+            <div className="list-col-grow">
+              <div>Quiz Name</div>
+              <div className="text-xs uppercase font-semibold opacity-60">Date:</div>
+            </div>
+          </li>
+          
+          <li className="list-row">
+            <div className="text-4xl font-thin opacity-30 tabular-nums">03</div>
+            
+            <div className="list-col-grow">
+              <div>Quiz Name</div>
+              <div className="text-xs uppercase font-semibold opacity-60">Date:</div>
+            </div>
+          </li>
+
+          <li className="list-row">
+            <div className="text-4xl font-thin opacity-30 tabular-nums">04</div>
+            
+            <div className="list-col-grow">
+              <div>Quiz Name</div>
+              <div className="text-xs uppercase font-semibold opacity-60">Date:</div>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    </>
   )
 }
 

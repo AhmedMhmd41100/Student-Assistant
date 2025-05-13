@@ -19,14 +19,14 @@ const page = () => {
         <div className="flex justify-center items-center w-[50%] m-0 ml-50  ">
             <button
               onClick={()=>{setSignupType("student")}}
-              className="btn btn-primary  rounded-md w-full rounded-r-none  py-2 px-4 border border-r border-transparent text-center text-sm font-semibold transition-all shadow-md hover:shadow-lg cursor-pointer focus: focus:shadow-none   active:bg-base-300 shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+              className="btn btn-primary  rounded-md w-full rounded-r-none  py-2 px-4 border border-r border-transparent text-center text-sm font-semibold transition-all shadow-md hover:shadow-lg cursor-pointer focus:btn-secondary    active:btn-secondary  disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               type="button"
             >
               Student
             </button>
             <button
               onClick={()=>{setSignupType("teacher")}}
-              className="btn btn-primary rounded-md w-full rounded-l-none  py-2 px-4 border border-l border-transparent text-center text-sm font-semibold transition-all shadow-md hover:shadow-lg cursor-pointer focus: focus:shadow-none  active:bg-base-300 shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+              className="btn btn-primary rounded-md w-full rounded-l-none  py-2 px-4 border border-l border-transparent text-center text-sm font-semibold transition-all shadow-md hover:shadow-lg cursor-pointer focus:btn-secondary  active:btn-secondary  disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               type="button"
             >
               Teacher
